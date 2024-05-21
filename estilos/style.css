@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*Paleta de cores 
+    Verde #49a09d
+    Lilas #5f2c82
+    */ 
+*{
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+html,body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #5f2c82;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#login {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px #251132;
+  
+}
+
+#fundo {
+
+    background-image: url(/imagens/predio.jpg.jpg);
+    height: 200px;
+    background-size: contain;
+
+}
+
+ #formulario h1 {
+    text-align: center;
+    
+ }

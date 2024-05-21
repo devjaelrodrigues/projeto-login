@@ -132,12 +132,11 @@ form > input[type=submit] {
     border-radius: 2px;
     border:1px solid #49a09d;
     text-align: center;
-   
+    font-size: 0.8em;
+    
  }
 
- .material-symbols-outlined{
-     margin-top: px;
- }
+
 
  form .botao:hover{
     background-color: lightgray;

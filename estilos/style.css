@@ -28,7 +28,7 @@ main {
     box-sizing: border-box;
 }
 
-#login {
+#login {  /*nossa section*/
     background-color: whitesmoke;
     width: 300px;
     height: 500px;
@@ -39,7 +39,8 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 2px 2px 2px #251132;
-  
+    transition: width .3s,height .3s;
+    transition-timing-function: ease;
 }
 
 #fundo {
@@ -47,10 +48,25 @@ main {
     background-image: url(/imagens/predio.jpg.jpg);
     height: 200px;
     background-size: contain;
+    display: block;     /*display block para conseguir mover o elemento com o float*/
 
+}
+
+#formulario {
+    padding: 10px;
+    display: block;
 }
 
  #formulario h1 {
     text-align: center;
-    
+    padding-bottom: 5px;
+    font-size: 1.5em
+ }
+
+ #formulario p { 
+     font-size: 0.8em;  /*tamanho da font*/
+ }
+
+ #formulario > input[type=submit] {
+    display: block;
  }

@@ -65,6 +65,7 @@ main {
 
  #formulario p { 
      font-size: 0.8em;  /*tamanho da font*/
+     padding: 10px;
  }
    form .campo { 
 
